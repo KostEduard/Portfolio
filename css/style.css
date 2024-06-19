@@ -1,0 +1,249 @@
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;*/
+}
+.container{
+	width: 100%;
+	display: grid;
+	background: white;
+}
+.header{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+.burgermanu{
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logoSHKM{
+	width: 50px;
+	height: 50px;
+}
+.manu{
+	text-decoration: none;
+	color: black;
+}
+.main{
+	width: 100%;
+	height: 624px;
+	display: flex;
+	justify-content: center;
+}
+.arctitle{
+	width: 50%;
+	height: 324px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+.title_main{
+	font-size: 4em;
+	font-weight: 700;
+}
+.myname{
+	height: 15px;
+}
+.section1{
+	width: 100%;
+	height: 424px;
+}
+.title_section1{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	font-weight: 600;
+}
+.arctitle_section1{
+	display: flex;
+	justify-content: space-evenly;
+}
+.card1{
+	width: 350px;
+	height: 400px;
+}
+.section2{
+	width: 100%;
+}
+.aside_section2{
+	display: grid;
+	grid-template-columns: repeat(2, 700px);
+	grid-template-rows: repeat(2, 315px);
+	grid-gap: 45px;
+	justify-content: center;
+}
+.title_section2{
+	display: flex;
+	justify-content: center;
+	font-weight: 600;
+}
+.card_section2{
+	width: 1000px;
+	margin: 50px;
+}
+.image_section2{
+	width: 800px;
+	height: 315px;
+}
+.section3{
+	width: 100%;	
+	height: 500px;
+}
+.title_section3{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	font-weight: 600;
+}
+.card1_section3{
+	width: 408px;
+	height: 375px;
+	background: lightgrey;
+	display: grid;
+	border-radius: 10px;
+	padding: 5px;
+}
+.card2_section3{
+	width: 408px;
+	height: 375px;
+	background: lightgrey;
+	display: grid;
+	border-radius: 10px;
+	padding: 5px;
+}
+.aside_section3{
+	display: flex;
+	justify-content: space-evenly;
+}
+.subtitle{
+	display: flex;
+	justify-content: center;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 100px;
+}
+.aside1_footer{
+	width: 360px;
+	height: 138px;
+}
+.aside2_footer{
+	width: 530px;
+	height: 530px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.entername{
+	width: 530px;
+	height: 60px;
+	background: #F3F3F3;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+.enteremail{
+	width: 530px;
+	height: 60px;
+	background: #F3F3F3;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+.message{
+	width: 530px;
+	height: 231px;
+	background: #F3F3F3;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+.button{
+	width: 225px;
+	height: 70px;
+	background: #2D2D2D;
+	color: white;
+	border: 2px solid #2D2D2D;
+}
+.button:hover {
+	background: lightgrey;
+	border: 2px solid #2D2D2D;
+	transition: 1s;
+	color: black;
+}
+
+@media screen and (min-width: 440px) and (max-width: 1024px){
+	.container{
+		width: 1024px;
+	}
+	.header{
+		width: 1024px;
+	}
+	.main{
+		width: 1024px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.arctitle{
+		width: 200px;
+		height: 162px;
+		gap: 20px;
+	}
+	.image{
+		width: 247px;
+		height: 212px;
+	}
+	.title_main{
+		font-size: 3em;
+	}
+	.myname{
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+	.text_main{
+		font-size: 1.3em;
+		font-weight: 600;
+	}
+	.manu{
+		font-size: 1.5em;
+		font-weight: 400;
+	}
+	.section1{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.card1{
+		width: 390px;
+		height: 150px;
+		display: grid;
+		justify-content: space-evenly;
+	}
+	.text_card1{
+		height: 55px;
+}
+.section2{
+	width: 1024px;
+
+}
+.section3{
+	width: 1024px;
+}
+.image_section2{
+	width: 245px;
+	height: 157px;
+}
